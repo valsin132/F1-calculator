@@ -93,6 +93,7 @@ body {
 .submit-btn {
   padding: 0.75rem;
   background-color: var(--dark-grey);
+  border: 1px solid var(--dark-grey);
   max-height: 40px;
   border-radius: 0.5rem;
   width: 100%;
