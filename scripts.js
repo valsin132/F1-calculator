@@ -3,10 +3,12 @@ const inputsWrapper = document.getElementById("inputs-wrapper");
 
 for (let i = 1; i <= totalRaces; i++) {
   const label = document.createElement("label");
+  label.className = "race-label";
   label.htmlFor = `race${i}`;
   label.textContent = `Race ${i}`;
 
   const input = document.createElement("input");
+  input.className = "race-input";
   input.id = `race${i}`;
   input.name = `race${i}`;
   input.type = "number";
